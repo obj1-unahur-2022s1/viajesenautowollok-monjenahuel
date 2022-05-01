@@ -19,9 +19,12 @@ object oficina {
 	}
 	
 	method intercambiarRemiseras(){
-		var aux = primeraRemisera
-		primeraRemisera = segundaRemisera
-		segundaRemisera = aux
+		/* 
+		 * acá podías llamar a  self.asignarRemiseras(r2,r1)
+		 * 
+		*/
+		self.asignarRemiseras(segundaRemisera,primeraRemisera )
+	
 	}
 	
 	method remiseraElegidaParaViaje(cliente, kms){

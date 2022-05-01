@@ -1,3 +1,7 @@
+/*
+ * Test: Muy bien- Pasan todos
+ */
+
 import clientes.*
 import remiseras.*
 import cooperativa.*
