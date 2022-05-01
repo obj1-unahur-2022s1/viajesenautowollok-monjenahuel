@@ -1,11 +1,19 @@
+/*
+ * Clientes: Bien -, revisar los comentarios sobre el codigo
+ */
+
 object ludmila {
-	
-	method valorArreglado() = return 18
+	/*Si pones el igual no pones return */
+	method valorArreglado() = 18
 		
 }
 
 object anaMaria {
+	/* Falta método para cambiar de ecoEstabble a False */
 	var ecoEstable = true
+	method cambiarEcoEstable(unValor){
+		ecoEstable = unValor
+	}
 	
 	method valorArreglado(){
 		if(ecoEstable){
@@ -13,7 +21,8 @@ object anaMaria {
 		}else{
 			return 25
 		}}
-	method ecoEstable()= return ecoEstable
+	
+	method ecoEstable()= ecoEstable
 }
 
 object teresa{
@@ -29,7 +38,8 @@ object teresa{
 object melina{
 	var empleadora = null
 	
-	method empleadora()=return jefa
+	
+ 
 	method empleadora(cliente){
 		empleadora = cliente		
 	}
